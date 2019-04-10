@@ -3,6 +3,7 @@ project (hanabi_learning_environment)
 
 set(CMAKE_C_FLAGS "-O2 -std=c++11 -fPIC")
 set(CMAKE_CXX_FLAGS "-O2 -std=c++11 -fPIC")
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 add_subdirectory (hanabi_lib)
 
